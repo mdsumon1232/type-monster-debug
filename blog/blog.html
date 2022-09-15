@@ -10,6 +10,18 @@
 <body>
     <div class="container">
         <h1>Blog</h1>
+        <div class="blog-content">
+            <div class="card">
+                <h2>What is the difference between localStorage, sessionStorage ?</h2>
+                <p>
+                    localStorage and sessionStorage are relatively new APIs (meaning, not all legacy browsers will support them) and are near identical (both in APIs and capabilities) with the sole exception of persistence. sessionStorage (as the name suggests) is only available for the duration of the browser session (and is deleted when the tab or window is closed) - it does, however, survive page reloads
+                    Clearly, if the data you are storing needs to be available on an ongoing basis then localStorage is preferable to sessionStorage - although you should note both can be cleared by the user so you should not rely on the continuing existence of data in either case.
+                </p>
+            </div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
     </div>
 </body>
 </html>
